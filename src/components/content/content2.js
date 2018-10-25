@@ -24,7 +24,7 @@ export default class Content extends Component {
     this.setState({ color: test});
     this.setState({ text: <div className="projectstarttxt">Click<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect letsgobtn">Lets Go!</button></div>})
     if(site== 'web'){
-      this.setState({ text2: <div className="projectstarttxt">Start Your Web Application<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect letsgobtn">Lets Go!</button></div>})
+      this.setState({ text2: <div className="projectstarttxt">Start Your Website<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect letsgobtn">Lets Go!</button></div>})
     }else if(site=='app'){
       this.setState({ text2: <div className="projectstarttxt">Start Your Application<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect letsgobtn">Lets Go!</button></div>})
     }else{
